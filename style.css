@@ -129,12 +129,8 @@ main{
     font-family: 'Varela Round', sans-serif;
 }
 
-.card-block{
-    width:300px;
-    padding:5px;
-    background-color: #191D20;
-    
-}
+
+/* from here */ /* from here */ /* from here *//* from here */
 
 .main-block3{
     color:black;
@@ -143,11 +139,22 @@ main{
     margin-left: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-#burger{
+.card-block{
+    width:300px;
+    padding:5px;
+    background-color: #191D20;
+    margin-top: 8px;
+    color:#FFFF
+    
+}
+
+.burger1{
     height:150px;
     width:100%;
 }
+
 .card-desc{
     display: flex;
     justify-content: space-between;
