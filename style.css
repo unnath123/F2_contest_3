@@ -1,0 +1,160 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    display:flex;
+    height:100vh;
+    width:100vw;
+    
+    color:white;
+}
+nav{
+    flex:0.8;
+    background-color: #0C0E10;
+    
+}
+main{
+    flex:3.2;
+    background-color: black;
+    height:100vh;
+    overflow-y: scroll;
+    position: relative;
+}
+.nav-main{
+    
+}
+.nav-block1 img{
+    height:150px;
+    width:200px;
+
+}
+.nav-block1{
+    text-align:center;
+}
+.nav-block1 p{
+    color:brown
+}
+.line{
+    border-bottom: 1px solid #1C2025;
+    margin:10px 0px;
+}
+.nav-block2{
+    font-family: 'Varela Round', sans-serif;
+}
+.nav-block2 h4{
+    text-align: center;
+}
+.block2ul{
+    margin-top:20px;
+    margin-left:50px;
+}
+.block2ul li{
+    margin:5px;
+}
+.block2ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+  .main-block1{
+    height:50px;
+    width:100%;
+    background-color: #191D20;
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main-block1{
+    
+  }
+  .inputblock{
+    background-color: #272A30;
+    width:600px;
+    height:30px;
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .inputblock>input{
+    width:95%;
+    height: 20px; 
+    background-color:transparent;
+    border:none;
+    outline: none;
+    color:white;
+    
+
+  }
+  .inputblock>i{
+    margin-top:5px;
+    width:3%;
+    height:90%;
+    margin-left:5px;
+    margin-right:10px;
+  }
+
+  .btn1{
+    width:100px;
+    height:30px;
+    background-color: #FF2424;
+    color:#FFFF;
+    border-radius: 3px;
+    border:none;
+  }
+  .img3{
+    width:58px;
+    height:62px;
+  }
+  .main-block2{
+    width:96%;
+    height:300px;
+    margin:15px auto;
+  }
+  #thisimage{
+    width:100%;
+    height:100%;
+  }
+#m2m{
+    margin-left:20px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.card-block{
+    width:300px;
+    padding:5px;
+    background-color: #191D20;
+    
+}
+
+.main-block3{
+    color:black;
+    width:96%;
+    margin:15px auto;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#burger{
+    height:150px;
+    width:100%;
+}
+.card-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFF
+}
+.card-desc img{
+    width: 30px;
+    height: 30px;
+}
