@@ -106,7 +106,8 @@ function thankyouFnc() {
 window.onload=()=>{
     invoke_this();
    async function invoke_this(){
-        getMenu();
+        try{
+            getMenu();
         let x= await TakeOrder();
         console.log(x);
 
@@ -118,6 +119,10 @@ window.onload=()=>{
 
         let z1= thankyouFnc();
         
+        }
+        catch(e){
+            console.log(e);
+        }
        
    }
 
