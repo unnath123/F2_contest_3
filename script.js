@@ -7,7 +7,7 @@ function getMenu(){
         p1response.then((p1data2)=>{
             const arr=p1data2;//array with all objects
 
-            const mainblock=document.getElementById("main-blgit add ockb1");
+            const mainblock=document.getElementById("main-blockb1");
 
             for(let i=0;i<arr.length;i++){
                 let cardblockb1=document.createElement("div");
